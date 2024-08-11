@@ -1,0 +1,60 @@
+
+ROM used:   1354/32768 (4%)
+            1354/32768 (4%) including unused fragments
+
+            0.9 Average locations per line
+            5.1 Average locations per statement
+
+RAM used:   41/2048 (2%) at main() level
+            47/2048 (2%) worst case
+
+Stack used: 2 worst case (0 in main + 2 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  151   142  53  Teclado_matricial.c
+  837     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.h
+   37     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdio.h
+  423   125  47  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   32     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+   28     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+----- -----
+ 1508   267 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   1    1   222  7.1  @delay_ms1
+0    872  32    4  5599 11.3  funcao_colocar_senha
+0     34   1    0             @const759
+0     34   1    2             @PSTRINGC_9600_31766_31767
+0      8   0    0   979 10.0  @const770
+0      6   0    0   150  5.1  @const772
+0     20   1    0   556  7.5  @const773
+0     26   1    0   556  7.5  @const774
+0     24   1    0   510 10.6  @const775
+0     42   2    0  1146  9.9  @const776
+0    102   4    0    98  2.1  MAIN
+ Inline         0    98  2.1  @cinit1
+
+Program metrics:
+    Functions               10
+    Statements              267
+    Comments                356
+    Volume (V)              13468
+    Difficulty (D)          73.7
+    Effort to implement (E) 992708
+    Time to implement (T)   15 hours, 19 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   43
+    Maintainability (MI)    88
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00094   142  0  
+00096-07FFE  1208  31410  
+
+
+
